@@ -1,0 +1,77 @@
+html,body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    font-family: "Helvetica-Neue";
+    font-weight: 500;
+}
+
+#map {
+    min-height: 100%;
+}
+
+nav {
+    float: right;
+    width: 20%;
+    background-color: #000;
+    height: 100%;
+    min-width: 230px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+nav h1 {
+    margin-left: 25px;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+
+form {
+    text-align: center;
+    padding-top: 15px;
+}
+
+.search {
+    padding: 8px 15px;
+    background: rgba(255,255,255,0.9);
+    color: #000;
+    border: 0 solid #dbdbdb;
+    width: 95%;
+}
+
+.locations {
+    color: #fff;
+    list-style: none;
+    padding: 0;
+}
+
+.locations li {
+    padding: 5px 10px;
+}
+
+.infowindow {
+    color: #000;
+}
+
+.infowindow {
+    color: #000;
+}
+
+.infowindow {
+    color: #000;
+}
+
+#infowindow {
+    display: none;
+}
+
+div.legend {
+    margin-left: 15px;
+}
+
+div.legend span {
+    position: relative;
+    top: -16px;
+    left: 6px;
+}
